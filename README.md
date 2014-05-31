@@ -8,6 +8,7 @@ This project is a Windows Form example of Kinect based Speech Recogintion. The a
 Required Components and/or SDK:
 
 Microsoft Kinect SDK 1.8: http://www.microsoft.com/en-us/kinectforwindowsdev/Downloads.aspx
+
 Microsoft Speech SDK v11: http://www.microsoft.com/en-us/download/details.aspx?id=27226
 
 Credit & Kudos:
