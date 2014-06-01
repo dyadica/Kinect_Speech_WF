@@ -174,7 +174,10 @@ namespace Kinect_Speech_WF
             }
             else
             {
-                // this.statusBarText.Text = Properties.Resources.NoSpeechRecognizer;
+                // Failed to find a recogniser so provide
+                // some detail here!
+
+                System.Diagnostics.Debug.WriteLine("No Speech Recogniser Found!");
             }
         }
 
@@ -251,7 +254,7 @@ namespace Kinect_Speech_WF
 
             if (e.Result.Confidence >= ConfidenceThreshold)
             {
-                System.Diagnostics.Debug.WriteLine(e.Result.Text);
+                // System.Diagnostics.Debug.WriteLine(e.Result.Text);
             }
         }
 
